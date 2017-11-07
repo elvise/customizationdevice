@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ooops_customization_devicebay *.css
+recursive-include ooops_customization_devicebay *.csv
+recursive-include ooops_customization_devicebay *.html
+recursive-include ooops_customization_devicebay *.ico
+recursive-include ooops_customization_devicebay *.js
+recursive-include ooops_customization_devicebay *.json
+recursive-include ooops_customization_devicebay *.md
+recursive-include ooops_customization_devicebay *.png
+recursive-include ooops_customization_devicebay *.py
+recursive-include ooops_customization_devicebay *.svg
+recursive-include ooops_customization_devicebay *.txt
+recursive-exclude ooops_customization_devicebay *.pyc
