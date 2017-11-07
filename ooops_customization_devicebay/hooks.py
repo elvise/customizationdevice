@@ -45,6 +45,19 @@ app_license = "MIT"
 # Website user home page (by function)
 # get_website_user_home_page = "ooops_customization_devicebay.utils.get_home_page"
 
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": {
+            "fieldname": [
+                "in", [
+                    "prezzo_consigliato_al_rivenditore"
+                ]
+            ]
+        }
+    }
+]
+
 # Generators
 # ----------
 
