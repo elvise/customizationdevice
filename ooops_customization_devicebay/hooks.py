@@ -51,7 +51,8 @@ fixtures = [
         "filters": {
             "fieldname": [
                 "in", [
-                    "prezzo_consigliato_al_rivenditore"
+                    "prezzo_consigliato_al_rivenditore",
+                    "serial_no"
                 ]
             ]
         }
