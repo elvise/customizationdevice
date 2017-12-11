@@ -26,7 +26,7 @@ app_license = "MIT"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-doctype_js = {"Sales Order": "ooops_customization_devicebay/js/sales_order.js"}
+# doctype_js = {"Sales Order": "ooops_customization_devicebay/js/sales_order.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -45,14 +45,15 @@ doctype_js = {"Sales Order": "ooops_customization_devicebay/js/sales_order.js"}
 # Website user home page (by function)
 # get_website_user_home_page = "ooops_customization_devicebay.utils.get_home_page"
 
+# Fixtures
+# --------
 fixtures = [
     {
         "doctype": "Custom Field",
         "filters": {
             "fieldname": [
                 "in", [
-                    "prezzo_consigliato_al_rivenditore",
-                    "serial_no"
+                    "prezzo_consigliato_al_rivenditore"
                 ]
             ]
         }
@@ -93,13 +94,13 @@ fixtures = [
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
+doc_events = {
 # 	"*": {
 # 		"on_update": "method",
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
 #	}
-# }
+}
 
 # Scheduled Tasks
 # ---------------
